@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+__zdp_cd() {
+  local dir
+  dir="$(__zd "$@")"
+
+  [[ -d "$dir" ]] || return
+
+  # shellcheck disable=SC2164
+  cd "$dir"
+}
