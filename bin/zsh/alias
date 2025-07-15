@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+
+z() {
+  __zdp_cd "$@"
+}
