@@ -6,6 +6,5 @@ __zdp_cd() {
 
   [[ -d "$dir" ]] || return
 
-  # shellcheck disable=SC2164
   builtin cd -- "$dir"
 }
