@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 __zdp_cd() {
   local dir
   dir="$(__zd "$@")"
@@ -7,4 +5,8 @@ __zdp_cd() {
   [[ -d "$dir" ]] || return
 
   builtin cd -- "$dir"
+}
+
+z() {
+  __zdp_cd "$@"
 }
