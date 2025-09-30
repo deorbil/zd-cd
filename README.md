@@ -5,7 +5,7 @@ cd plugin for [zd]
 ## Installation
 
 ```sh
-zd plugin add cd https://github.com/deorbil/zd-cd.git
+zd plugin install deorbil/zd-cd
 ```
 
 ## Usage
